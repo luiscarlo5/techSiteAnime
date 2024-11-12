@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.p-body{
+    background-color: black;
+
+}
+.img-altura-1{
+    height: 30rem;
+    width: auto;
+}
+
+.img-altura-2 {
+    height: 22rem;
+    width: 100px;
+}
+
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+a,
+li{
+    color: rgb(210, 248, 235);
+}
+
+.card-meu {
+    width: 14rem;
+    height: 18rem;
+}
+.ua-h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.roboto-meu {
+    font-family: "Roboto", sans-serif;
+}
+
+.ep-span-absolute {
+    position: absolute;
+    height: 4rem;
+    width: 100%;
+    opacity: 0.965;
+    top: 75%;
+    font-size: 0.8rem;
+}
+
+.card-body p{
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+    .img-altura-1{
+        height: 26rem !important;
+    }
+    .card p{
+        font-size: 0.75rem;
+    }
+    .card img {
+      
+        height: 7rem;
+    }
+    .ep-span-absolute {
+        font-size: 0.4rem;
+        color: aqua;
+        height: 10px !important;
+    }
+    .card-meu {
+        width: 6rem !important;
+        height: 8rem !important;
+        margin-bottom: 100px !important;
+        gap: 4px;
+    }
+    .card-bory{
+        height: 2rem !important;
+        background-color: aqua !important;
+    }
+}
+
+/* Estilos para telas ainda menores (como celulares) */
+@media (max-width: 480px) {
+    .img-altura-1 {
+        height: 18rem;
+    }
+    .card-meu {
+        width: 4rem !important;
+        height: 6rem !important;
+
+    }
+}
